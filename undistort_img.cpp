@@ -13,7 +13,7 @@ int main()
         double paramB = 0.43;//0.5;
         double paramC = -0.23;
         double paramD = 1.0 - paramA - paramB - paramC;
-        cv::Mat src_image = cv::imread("/APP3/wangxiujing/workspace/python/fisheye/img/res.jpg", 1);  //BGR
+        cv::Mat src_image = cv::imread("/APP3/workspace/python/fisheye/img/res.jpg", 1);  //BGR
         //cv::copyMakeBorder(src_image, src_image, 150, 150, 150, 150, cv::BORDER_CONSTANT, 0);
         //cv::imwrite("padding.jpg", src_image);
         cv::cvtColor(src_image, src_image, cv::COLOR_BGR2RGB);
